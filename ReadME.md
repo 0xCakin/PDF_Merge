@@ -11,7 +11,6 @@ Make sure that there is no space in the folder name.
 # How to use it
 
 - Go to dist folder and run `merge_PDF-3.exe` file
-- Download the corresponding Foxit Quick PDF Library version
 
 ```python
 Folder path to PDFs that need merging: 
