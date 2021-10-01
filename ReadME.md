@@ -18,7 +18,7 @@ Folder path to PDFs that need merging:
 #<enter the folder path> 
 #e.g.    
 
-Q:\GIS\PROJECTS\11213000s\11213985\Layouts\20211001_AdditionalSurveyExtentUpdate
+Q:\...\20211001_AdditionalExtent
 ```
 ```python
 What should I call the file?
