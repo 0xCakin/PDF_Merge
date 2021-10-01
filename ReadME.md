@@ -1,5 +1,5 @@
 # PDF Merge
-Based on [PyPDF2 Library](https://anaconda.org/conda-forge/pypdf2/)，in [Python3] (https://www.python.org/downloads/).
+Based on [PyPDF2 Library](https://anaconda.org/conda-forge/pypdf2/)，in [Python3](https://www.python.org/downloads/).
 
 # Introduction
 
