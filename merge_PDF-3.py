@@ -26,7 +26,12 @@ def main():
 
     #Ask user for the name to save the file as
     userfilename=input("What should I call the file?")
-
+    
+    # if the user types .pdf at the end of the file, will not keep adding
+    #   prevents output.pdf.pdf
+    if not userfilename.endswith('.pdf'):
+        userfilename += '.pdf'
+        
     #Get all the PDF filenames
     pdf2merge = []
     for filename in os.listdir("."):
@@ -48,7 +53,7 @@ def main():
             pdfWriter.addPage(pageObj)
 
     #save PDF to file, wb for write binary
-    pdfOutput = open(userfilename+".pdf", "wb")
+    pdfOutput = open(userfilename, "wb")
 
     #Outputting the PDF
     pdfWriter.write(pdfOutput)
